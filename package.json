@@ -1,0 +1,21 @@
+{
+  "name": "tensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "iris.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node iris.js"
+  },
+  "keywords": [],
+  "author": "Tyler Smith <tilersmyth@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.12.4",
+    "@tensorflow/tfjs-node": "^0.1.9"
+  }
+}
